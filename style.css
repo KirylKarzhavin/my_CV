@@ -130,9 +130,8 @@ img
     margin-top: 100px;
     border-left: 1px solid grey;
     height: 550px;
-    left: 45.3%;
+    left: 45%;
     position: absolute;
-    margin-left: -3px;
 }
 
 .ul-2
@@ -161,4 +160,3 @@ textarea
     height: 100px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
