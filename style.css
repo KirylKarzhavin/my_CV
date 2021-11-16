@@ -91,7 +91,7 @@ img
     position: relative;
     margin: 5px;
     height: 4px;
-    width: 150px;
+    width: 180px;
     background: grey; 
 }
 
@@ -110,9 +110,11 @@ img
     position: absolute;
     width: 8px;
     height: 8px;
-    border-radius: 50%;
+    border-radius: 100%;
     left: 50%;
     background: #3eb5f1;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .percent
