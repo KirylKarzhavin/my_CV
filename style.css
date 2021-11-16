@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+    margin: 2%;
+    font-family: Tomorrow, sans-serif;
+} 
+
+.parrent-container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.center-flex
+{   
+    box-shadow: 2px 2px 36px 0px rgba(34, 60, 80, 0.2);
+    width: 50%;
+}
+
+.header-cv 
+{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: #fcee09;
+    height: 150px;
+}
+
+.body-cv 
+{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+h1 
+{
+    margin: 0px;
+    font-family: Tomorrow, sans-serif;
+    color: #3eb5f1;;
+}
+
+h3 
+{
+    color: #6e6e6e;
+    margin: 0px;
+}
+
+h4 
+{
+    color: #3eb5f1;
+}
+
+p
+{
+}
+
+img 
+{
+    position: relative;
+    margin-top: 15px;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+} 
+
+.ul-1
+{   
+    margin-top: 100px;
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+.left 
+{
+    color: #6e6e6e;
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 25px;
+} 
+
+.right 
+{   
+    color: #6e6e6e;
+    margin-left: 50px;
+    margin-right: 25px;
+    width: 60%;
+    font-size: 14px;
+}
+
+.progress
+{
+    position: relative;
+    margin: 5px;
+    height: 4px;
+    width: 150px;
+    background: grey; 
+}
+
+.line
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background: #3eb5f1;
+}
+
+.circle
+{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 50%;
+    background: #3eb5f1;
+}
+
+.percent
+{
+    position: absolute;
+    color: #3eb5f1;
+    left: 50%;
+    bottom: 5px;
+}
+
+.vl 
+{
+    margin-top: 100px;
+    border-left: 1px solid grey;
+    height: 550px;
+    left: 45.3%;
+    position: absolute;
+    margin-left: -3px;
+}
+
+.ul-2
+{   
+    list-style-type: square;
+    font-size: 14px;
+}
+
+.ul-3
+{   
+    list-style-type: square;
+    font-size: 14px;
+}
+
+span
+{
+    font-weight: bold;
+    color: #3eb5f1;
+}
+
+textarea 
+{
+    text-align: left;
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
